@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FLAVOR - Kopi Pilihan dan Camilan Nikmat untuk Menemani Harimu.">
+    <title>FLAVOR | Coffee & Snack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">FLAVOR<span>.</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#menu">Menu Andalan</a></li>
+                    <li><a href="#kontak">Pesan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Awali Harimu dengan Rasa Terbaik</h1>
+            <p>Perpaduan biji kopi pilihan lokal dan camilan renyah buatan sendiri yang siap menemani setiap momen produktif maupun santaimu.</p>
+            <a href="#menu" class="btn-primary">Lihat Menu Kami</a>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <h2>Tentang FLAVOR</h2>
+            <p>Lahir dari kecintaan terhadap racikan kopi Nusantara dan camilan hangat, <strong>FLAVOR</strong> hadir untuk memberikan pengalaman bersantai yang praktis dengan kualitas rasa premium dan harga yang tetap bersahabat.</p>
+        </div>
+    </section>
+
+    <!-- Menu Produk -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Menu Andalan</h2>
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="card">
+                    <div class="badge">Coffee</div>
+                    <h3>Flavor Aren Latte</h3>
+                    <p>Espresso house-blend dipadukan dengan susu segar dan gula aren organik pilihan.</p>
+                    <span class="price">Rp 18.000</span>
+                </div>
+                <!-- Item 2 -->
+                <div class="card">
+                    <div class="badge">Coffee</div>
+                    <h3>Manual Brew V60</h3>
+                    <p>Seduhan kopi single-origin Arabika dengan karakter rasa fruity dan aroma floral.</p>
+                    <span class="price">Rp 22.000</span>
+                </div>
+                <!-- Item 3 -->
+                <div class="card">
+                    <div class="badge snack">Snack</div>
+                    <h3>Choco Croffle</h3>
+                    <p>Croissant renyah yang dipanggang hangat dengan topping lelehan cokelat Belgia.</p>
+                    <span class="price">Rp 15.000</span>
+                </div>
+                <!-- Item 4 -->
+                <div class="card">
+                    <div class="badge snack">Snack</div>
+                    <h3>Pisang Nugget Crispy</h3>
+                    <p>Pisang kepok manis berbalut tepung renyah dengan taburan keju melimpah.</p>
+                    <span class="price">Rp 16.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak & Pemesanan -->
+    <section id="kontak" class="cta-section">
+        <div class="container">
+            <h2>Siap Menikmati FLAVOR Hari Ini?</h2>
+            <p>Tersedia untuk pemesanan langsung atau pengiriman instan di area kotamu.</p>
+            <a href="https://wa.me/6281234567890?text=Halo%20FLAVOR,%20saya%20ingin%20memesan%20menu..." target="_blank" class="btn-primary">Pesan via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 FLAVOR Coffee & Snack. Hosted on Cloud Static Web Infrastructure.</p>
+        </div>
+    </footer>
+</body>
+</html>
